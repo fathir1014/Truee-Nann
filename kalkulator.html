@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Turunan</title>
+  <link rel="stylesheet" href="kalkulator.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.0/math.min.js"></script>
+</head>
+<body>
+  <header class="bagian-atas-home">
+    <h1> KALKULATOR </h1>
+    <nav>
+      <ul class="ul-bagian-atas-home">
+        <li class="li-bagian-atas-home">
+          <a href="index.html" class="a-bagian-atas-home"> HOME </a>
+        </li>
+        <li class="li-bagian-atas-home">
+          <a href="materi.html" class="a-bagian-atas-home"> MATERI </a>
+        </li>
+        <li class="li-bagian-atas-home">
+          <a href="kuiz.html" class="a-bagian-atas-home"> QUIZ </a>
+        </li>
+  
+        <li class="li-bagian-atas-home">
+          <a href="kalkulator.html" class="a-bagian-atas-home"> KALKULATOR </a>
+        </li>
+        
+      </ul>
+    </nav>
+  </header>
+  <!-- BAGIAN ATAS HOME SELESAI -->
+  
+  <!-- BREADCUMB  -->
+  <nav class="breadcrumb">
+    <a href="projectkalkulus.html">Beranda</a> <span>></span>
+    <a href="materi.html">Materi</a>
+  </nav>
+  <!-- BREADCUMB  -->
+
+  <main>
+    <section class="calculator">
+      <h2>Masukkan Fungsi</h2>
+      <input type="text" id="inputFunction" placeholder="Contoh: x^2 + 3x + 2">
+      <button onclick="calculateDerivative()">Hitung Turunan</button>
+      <p id="result"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2023 Kalkulator Turunan. All rights reserved.</p>
+    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+  </footer>
+
+  <script src="kalkulator.js"></script>
+</body>
+</html>

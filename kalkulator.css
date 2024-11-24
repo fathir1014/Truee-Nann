@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9; /* Warna latar belakang yang lebih lembut */
+  color: #333;
+  padding: 20px;
+}
+
+/* Styling untuk header */
+header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.bagian-atas-home{
+  width : 100% ;
+  background-color: lightblue;
+  height : 25vh;
+  box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+-webkit-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+-moz-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+text-align: center;
+color: black;
+}
+
+  
+
+.ul-bagian-atas-home{
+  display : flex;
+  height : 60px;
+  justify-content : center;
+  align-items: center;
+  padding : 20px;
+}
+
+.li-bagian-atas-home{
+  padding : 10px;
+  margin : 15px;
+  font-size: 30px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.li-bagian-atas-home:hover{
+  background-color: rgb(177, 160, 160);
+  transition: .5s ease-in-out ;
+  transition-delay: .3s;
+  border-radius: 8px;
+}
+
+.a-bagian-atas-home{
+  color : black;
+  text-decoration: none;
+}
+
+/* BAGIAN ATAS HOME SELESAI  */
+  
+ 
+
+.breadcrumb {
+  padding: 10px 0; /* Menambah padding */
+  background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+  border-radius: 5px; /* Menambah radius */
+}
+
+.breadcrumb a {
+  color: #007BFF; /* Warna tautan biru */
+  text-decoration: none; /* Menghapus garis bawah */
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline; /* Garis bawah saat hover */
+}
+
+.breadcrumb span {
+  margin: 0 5px; /* Menambah margin */
+}
+
+.calculator {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  height: 40vh;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.calculator input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calculator button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background-color: #0056b3;
+}
+
+/* Gaya untuk footer */
+.footer {
+  background-color: #333; /* Warna latar belakang gelap */
+  color: white; /* Warna teks putih */
+  text-align: center; /* Menyusun teks di tengah */
+  padding: 20px; /* Menambah padding */
+  position: relative; /* Posisi relatif untuk penataan */
+  bottom: 0; /* Menempel di bagian bawah */
+  width: 100%; /* Lebar penuh */
+}
+
+.footer p {
+  margin: 10px 0; /* Menambah margin */
+  font-size: 0.9em; /* Ukuran font lebih kecil */
+}
+
+.footer a {
+  color: #ffd700; /* Warna emas untuk tautan */
+  text-decoration: none; /* Menghapus garis bawah */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Garis bawah saat hover */
+}
